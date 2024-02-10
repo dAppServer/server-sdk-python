@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.encrypted_response_dto import EncryptedResponseDTO
+from dappserver_server_sdk.models.encrypted_response_dto import EncryptedResponseDTO
 
 # TODO update the JSON string below
 json = "{}"

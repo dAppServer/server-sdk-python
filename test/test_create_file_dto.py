@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.create_file_dto import CreateFileDTO
+from dappserver_server_sdk.models.create_file_dto import CreateFileDTO
 
 class TestCreateFileDTO(unittest.TestCase):
     """CreateFileDTO unit test stubs"""

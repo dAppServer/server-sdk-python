@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.server_response import ServerResponse
+from dappserver_server_sdk.models.server_response import ServerResponse
 
 # TODO update the JSON string below
 json = "{}"

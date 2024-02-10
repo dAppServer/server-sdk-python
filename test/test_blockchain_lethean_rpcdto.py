@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.blockchain_lethean_rpcdto import BlockchainLetheanRPCDTO
+from dappserver_server_sdk.models.blockchain_lethean_rpcdto import BlockchainLetheanRPCDTO
 
 class TestBlockchainLetheanRPCDTO(unittest.TestCase):
     """BlockchainLetheanRPCDTO unit test stubs"""

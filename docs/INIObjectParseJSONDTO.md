@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.ini_object_parse_jsondto import INIObjectParseJSONDTO
+from dappserver_server_sdk.models.ini_object_parse_jsondto import INIObjectParseJSONDTO
 
 # TODO update the JSON string below
 json = "{}"

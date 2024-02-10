@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.file_path_dto import FilePathDTO
+from dappserver_server_sdk.models.file_path_dto import FilePathDTO
 
 # TODO update the JSON string below
 json = "{}"

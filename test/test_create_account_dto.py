@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.create_account_dto import CreateAccountDTO
+from dappserver_server_sdk.models.create_account_dto import CreateAccountDTO
 
 class TestCreateAccountDTO(unittest.TestCase):
     """CreateAccountDTO unit test stubs"""

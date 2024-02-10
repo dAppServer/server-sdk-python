@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.file_path_check_dto import FilePathCheckDTO
+from dappserver_server_sdk.models.file_path_check_dto import FilePathCheckDTO
 
 class TestFilePathCheckDTO(unittest.TestCase):
     """FilePathCheckDTO unit test stubs"""

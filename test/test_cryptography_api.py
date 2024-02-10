@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.api.cryptography_api import CryptographyApi
+from dappserver_server_sdk.api.cryptography_api import CryptographyApi
 
 
 class TestCryptographyApi(unittest.TestCase):

@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.process_start_dto import ProcessStartDTO
+from dappserver_server_sdk.models.process_start_dto import ProcessStartDTO
 
 class TestProcessStartDTO(unittest.TestCase):
     """ProcessStartDTO unit test stubs"""

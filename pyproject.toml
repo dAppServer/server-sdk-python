@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "dappserver-server-sdk"
+name = "dappserver_server_sdk"
 version = "3.1.0"
 description = "Lethean Server"
 authors = ["Lethean <hello@lt.hn>"]
@@ -7,7 +7,7 @@ license = "EUPL-1.2"
 readme = "README.md"
 repository = "https://github.com/dAppServer/server-sdk-python"
 keywords = ["OpenAPI", "OpenAPI-Generator", "Lethean Server"]
-include = ["dappserver-server-sdk/py.typed"]
+include = ["dappserver_server_sdk/py.typed"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
@@ -34,7 +34,7 @@ extension-pkg-whitelist = "pydantic"
 
 [tool.mypy]
 files = [
-  "dappserver-server-sdk",
+  "dappserver_server_sdk",
   #"test",  # auto-generated tests
   "tests", # hand-written tests
 ]

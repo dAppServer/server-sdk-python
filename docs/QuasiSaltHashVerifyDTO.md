@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.quasi_salt_hash_verify_dto import QuasiSaltHashVerifyDTO
+from dappserver_server_sdk.models.quasi_salt_hash_verify_dto import QuasiSaltHashVerifyDTO
 
 # TODO update the JSON string below
 json = "{}"

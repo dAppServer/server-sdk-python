@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.hash_dto import HashDTO
+from dappserver_server_sdk.models.hash_dto import HashDTO
 
 # TODO update the JSON string below
 json = "{}"

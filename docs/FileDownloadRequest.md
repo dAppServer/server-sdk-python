@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.file_download_request import FileDownloadRequest
+from dappserver_server_sdk.models.file_download_request import FileDownloadRequest
 
 # TODO update the JSON string below
 json = "{}"

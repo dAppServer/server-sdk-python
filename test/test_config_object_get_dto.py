@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.config_object_get_dto import ConfigObjectGetDTO
+from dappserver_server_sdk.models.config_object_get_dto import ConfigObjectGetDTO
 
 class TestConfigObjectGetDTO(unittest.TestCase):
     """ConfigObjectGetDTO unit test stubs"""

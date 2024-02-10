@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.open_pgp_verify_byiddto import OpenPGPVerifyBYIDDTO
+from dappserver_server_sdk.models.open_pgp_verify_byiddto import OpenPGPVerifyBYIDDTO
 
 # TODO update the JSON string below
 json = "{}"

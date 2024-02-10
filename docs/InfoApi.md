@@ -1,4 +1,4 @@
-# dappserver-server-sdk.InfoApi
+# dappserver_server_sdk.InfoApi
 
 All URIs are relative to *http://localhost:36911*
 
@@ -16,21 +16,21 @@ Method | HTTP request | Description
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.InfoApi(api_client)
+    api_instance = dappserver_server_sdk.InfoApi(api_client)
 
     try:
         api_instance.welcome_page()

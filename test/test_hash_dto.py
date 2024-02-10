@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.hash_dto import HashDTO
+from dappserver_server_sdk.models.hash_dto import HashDTO
 
 class TestHashDTO(unittest.TestCase):
     """HashDTO unit test stubs"""

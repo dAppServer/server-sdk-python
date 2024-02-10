@@ -1,4 +1,4 @@
-# dappserver-server-sdk.AuthApi
+# dappserver_server_sdk.AuthApi
 
 All URIs are relative to *http://localhost:36911*
 
@@ -18,24 +18,24 @@ Method | HTTP request | Description
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.create_account_dto import CreateAccountDTO
-from dappserver-server-sdk.models.create_account_response_dto import CreateAccountResponseDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.create_account_dto import CreateAccountDTO
+from dappserver_server_sdk.models.create_account_response_dto import CreateAccountResponseDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.AuthApi(api_client)
-    create_account_dto = dappserver-server-sdk.CreateAccountDTO() # CreateAccountDTO | 
+    api_instance = dappserver_server_sdk.AuthApi(api_client)
+    create_account_dto = dappserver_server_sdk.CreateAccountDTO() # CreateAccountDTO | 
 
     try:
         api_response = api_instance.create(create_account_dto)
@@ -84,23 +84,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.delete_account_dto import DeleteAccountDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.delete_account_dto import DeleteAccountDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.AuthApi(api_client)
-    delete_account_dto = dappserver-server-sdk.DeleteAccountDTO() # DeleteAccountDTO | 
+    api_instance = dappserver_server_sdk.AuthApi(api_client)
+    delete_account_dto = dappserver_server_sdk.DeleteAccountDTO() # DeleteAccountDTO | 
 
     try:
         api_instance.delete(delete_account_dto)
@@ -147,24 +147,24 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.encrypted_request_dto import EncryptedRequestDTO
-from dappserver-server-sdk.models.encrypted_response_dto import EncryptedResponseDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.encrypted_request_dto import EncryptedRequestDTO
+from dappserver_server_sdk.models.encrypted_response_dto import EncryptedResponseDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.AuthApi(api_client)
-    encrypted_request_dto = dappserver-server-sdk.EncryptedRequestDTO() # EncryptedRequestDTO | 
+    api_instance = dappserver_server_sdk.AuthApi(api_client)
+    encrypted_request_dto = dappserver_server_sdk.EncryptedRequestDTO() # EncryptedRequestDTO | 
 
     try:
         api_response = api_instance.login(encrypted_request_dto)

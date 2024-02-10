@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.api.config_api import ConfigApi
+from dappserver_server_sdk.api.config_api import ConfigApi
 
 
 class TestConfigApi(unittest.TestCase):

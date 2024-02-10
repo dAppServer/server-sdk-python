@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.process_kill_dto import ProcessKillDTO
+from dappserver_server_sdk.models.process_kill_dto import ProcessKillDTO
 
 class TestProcessKillDTO(unittest.TestCase):
     """ProcessKillDTO unit test stubs"""

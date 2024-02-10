@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.create_account_dto import CreateAccountDTO
+from dappserver_server_sdk.models.create_account_dto import CreateAccountDTO
 
 # TODO update the JSON string below
 json = "{}"

@@ -1,4 +1,4 @@
-# dappserver-server-sdk.ProcessApi
+# dappserver_server_sdk.ProcessApi
 
 All URIs are relative to *http://localhost:36911*
 
@@ -20,23 +20,23 @@ Method | HTTP request | Description
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.process_add_dto import ProcessAddDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.process_add_dto import ProcessAddDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.ProcessApi(api_client)
-    process_add_dto = dappserver-server-sdk.ProcessAddDTO() # ProcessAddDTO | 
+    api_instance = dappserver_server_sdk.ProcessApi(api_client)
+    process_add_dto = dappserver_server_sdk.ProcessAddDTO() # ProcessAddDTO | 
 
     try:
         api_instance.add_process(process_add_dto)
@@ -83,23 +83,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.process_kill_dto import ProcessKillDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.process_kill_dto import ProcessKillDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.ProcessApi(api_client)
-    process_kill_dto = dappserver-server-sdk.ProcessKillDTO() # ProcessKillDTO | 
+    api_instance = dappserver_server_sdk.ProcessApi(api_client)
+    process_kill_dto = dappserver_server_sdk.ProcessKillDTO() # ProcessKillDTO | 
 
     try:
         api_instance.kill_process(process_kill_dto)
@@ -146,23 +146,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.process_run_dto import ProcessRunDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.process_run_dto import ProcessRunDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.ProcessApi(api_client)
-    process_run_dto = dappserver-server-sdk.ProcessRunDTO() # ProcessRunDTO | 
+    api_instance = dappserver_server_sdk.ProcessApi(api_client)
+    process_run_dto = dappserver_server_sdk.ProcessRunDTO() # ProcessRunDTO | 
 
     try:
         api_instance.run_process(process_run_dto)
@@ -209,23 +209,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.process_start_dto import ProcessStartDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.process_start_dto import ProcessStartDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.ProcessApi(api_client)
-    process_start_dto = dappserver-server-sdk.ProcessStartDTO() # ProcessStartDTO | 
+    api_instance = dappserver_server_sdk.ProcessApi(api_client)
+    process_start_dto = dappserver_server_sdk.ProcessStartDTO() # ProcessStartDTO | 
 
     try:
         api_instance.start_process(process_start_dto)
@@ -272,23 +272,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.process_stop_dto import ProcessStopDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.process_stop_dto import ProcessStopDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.ProcessApi(api_client)
-    process_stop_dto = dappserver-server-sdk.ProcessStopDTO() # ProcessStopDTO | 
+    api_instance = dappserver_server_sdk.ProcessApi(api_client)
+    process_stop_dto = dappserver_server_sdk.ProcessStopDTO() # ProcessStopDTO | 
 
     try:
         api_instance.stop_process(process_stop_dto)

@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.config_file_load_dto import ConfigFileLoadDTO
+from dappserver_server_sdk.models.config_file_load_dto import ConfigFileLoadDTO
 
 class TestConfigFileLoadDTO(unittest.TestCase):
     """ConfigFileLoadDTO unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.open_pgp_decrypt_byiddto import OpenPGPDecryptBYIDDTO
+from dappserver_server_sdk.models.open_pgp_decrypt_byiddto import OpenPGPDecryptBYIDDTO
 
 class TestOpenPGPDecryptBYIDDTO(unittest.TestCase):
     """OpenPGPDecryptBYIDDTO unit test stubs"""

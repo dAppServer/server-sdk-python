@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.quasi_salt_hash_dto import QuasiSaltHashDTO
+from dappserver_server_sdk.models.quasi_salt_hash_dto import QuasiSaltHashDTO
 
 # TODO update the JSON string below
 json = "{}"

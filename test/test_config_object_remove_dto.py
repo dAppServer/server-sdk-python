@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.config_object_remove_dto import ConfigObjectRemoveDTO
+from dappserver_server_sdk.models.config_object_remove_dto import ConfigObjectRemoveDTO
 
 class TestConfigObjectRemoveDTO(unittest.TestCase):
     """ConfigObjectRemoveDTO unit test stubs"""

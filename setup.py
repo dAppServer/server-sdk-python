@@ -21,7 +21,7 @@ from setuptools import setup, find_packages  # noqa: H301
 #
 # prerequisite: setuptools
 # http://pypi.python.org/pypi/setuptools
-NAME = "dappserver-server-sdk"
+NAME = "dappserver_server_sdk"
 VERSION = "3.1.0"
 PYTHON_REQUIRES = ">=3.7"
 REQUIRES = [
@@ -47,5 +47,5 @@ setup(
     long_description="""\
     Lethean dAppServer
     """,  # noqa: E501
-    package_data={"dappserver-server-sdk": ["py.typed"]},
+    package_data={"dappserver_server_sdk": ["py.typed"]},
 )

@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.process_add_dto import ProcessAddDTO
+from dappserver_server_sdk.models.process_add_dto import ProcessAddDTO
 
 # TODO update the JSON string below
 json = "{}"

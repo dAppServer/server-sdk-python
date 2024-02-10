@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.config_object_set_dto import ConfigObjectSetDTO
+from dappserver_server_sdk.models.config_object_set_dto import ConfigObjectSetDTO
 
 # TODO update the JSON string below
 json = "{}"

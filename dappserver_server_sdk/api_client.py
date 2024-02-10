@@ -25,11 +25,11 @@ import tempfile
 from urllib.parse import quote
 from typing import Tuple, Optional, List, Dict
 
-from dappserver-server-sdk.configuration import Configuration
-from dappserver-server-sdk.api_response import ApiResponse, T as ApiResponseT
-import dappserver-server-sdk.models
-from dappserver-server-sdk import rest
-from dappserver-server-sdk.exceptions import (
+from dappserver_server_sdk.configuration import Configuration
+from dappserver_server_sdk.api_response import ApiResponse, T as ApiResponseT
+import dappserver_server_sdk.models
+from dappserver_server_sdk import rest
+from dappserver_server_sdk.exceptions import (
     ApiValueError,
     ApiException,
     BadRequestException,
@@ -421,7 +421,7 @@ class ApiClient:
             if klass in self.NATIVE_TYPES_MAPPING:
                 klass = self.NATIVE_TYPES_MAPPING[klass]
             else:
-                klass = getattr(dappserver-server-sdk.models, klass)
+                klass = getattr(dappserver_server_sdk.models, klass)
 
         if klass in self.PRIMITIVE_TYPES:
             return self.__deserialize_primitive(data, klass)

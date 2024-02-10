@@ -20,17 +20,18 @@ import json
 
 from pydantic import BaseModel, StrictStr
 from typing import Any, ClassVar, Dict, List
-from dappserver-server-sdk.models.config_object_get_dto import ConfigObjectGetDTO
+from dappserver_server_sdk.models.process_add_dto import ProcessAddDTO
 from typing import Optional, Set
 from typing_extensions import Self
 
-class ConfigFileRenderAndLoadDTO(BaseModel):
+class ProcessRunDTO(BaseModel):
     """
-    ConfigFileRenderAndLoadDTO
+    ProcessRunDTO
     """ # noqa: E501
-    file: StrictStr
-    model: ConfigObjectGetDTO
-    __properties: ClassVar[List[str]] = ["file", "model"]
+    command: StrictStr
+    args: StrictStr
+    options: ProcessAddDTO
+    __properties: ClassVar[List[str]] = ["command", "args", "options"]
 
     model_config = {
         "populate_by_name": True,
@@ -50,7 +51,7 @@ class ConfigFileRenderAndLoadDTO(BaseModel):
 
     @classmethod
     def from_json(cls, json_str: str) -> Optional[Self]:
-        """Create an instance of ConfigFileRenderAndLoadDTO from a JSON string"""
+        """Create an instance of ProcessRunDTO from a JSON string"""
         return cls.from_dict(json.loads(json_str))
 
     def to_dict(self) -> Dict[str, Any]:
@@ -71,14 +72,14 @@ class ConfigFileRenderAndLoadDTO(BaseModel):
             exclude=excluded_fields,
             exclude_none=True,
         )
-        # override the default output from pydantic by calling `to_dict()` of model
-        if self.model:
-            _dict['model'] = self.model.to_dict()
+        # override the default output from pydantic by calling `to_dict()` of options
+        if self.options:
+            _dict['options'] = self.options.to_dict()
         return _dict
 
     @classmethod
     def from_dict(cls, obj: Optional[Dict[str, Any]]) -> Optional[Self]:
-        """Create an instance of ConfigFileRenderAndLoadDTO from a dict"""
+        """Create an instance of ProcessRunDTO from a dict"""
         if obj is None:
             return None
 
@@ -86,8 +87,9 @@ class ConfigFileRenderAndLoadDTO(BaseModel):
             return cls.model_validate(obj)
 
         _obj = cls.model_validate({
-            "file": obj.get("file"),
-            "model": ConfigObjectGetDTO.from_dict(obj["model"]) if obj.get("model") is not None else None
+            "command": obj.get("command"),
+            "args": obj.get("args"),
+            "options": ProcessAddDTO.from_dict(obj["options"]) if obj.get("options") is not None else None
         })
         return _obj
 

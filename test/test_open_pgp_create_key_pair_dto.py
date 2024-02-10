@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.open_pgp_create_key_pair_dto import OpenPGPCreateKeyPairDTO
+from dappserver_server_sdk.models.open_pgp_create_key_pair_dto import OpenPGPCreateKeyPairDTO
 
 class TestOpenPGPCreateKeyPairDTO(unittest.TestCase):
     """OpenPGPCreateKeyPairDTO unit test stubs"""

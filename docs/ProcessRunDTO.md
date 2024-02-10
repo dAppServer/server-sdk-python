@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.process_run_dto import ProcessRunDTO
+from dappserver_server_sdk.models.process_run_dto import ProcessRunDTO
 
 # TODO update the JSON string below
 json = "{}"

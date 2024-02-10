@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.quasi_salt_hash_dto import QuasiSaltHashDTO
+from dappserver_server_sdk.models.quasi_salt_hash_dto import QuasiSaltHashDTO
 
 class TestQuasiSaltHashDTO(unittest.TestCase):
     """QuasiSaltHashDTO unit test stubs"""

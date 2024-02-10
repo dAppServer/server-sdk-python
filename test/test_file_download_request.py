@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.file_download_request import FileDownloadRequest
+from dappserver_server_sdk.models.file_download_request import FileDownloadRequest
 
 class TestFileDownloadRequest(unittest.TestCase):
     """FileDownloadRequest unit test stubs"""

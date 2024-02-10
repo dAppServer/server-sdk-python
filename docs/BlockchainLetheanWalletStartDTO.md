@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.blockchain_lethean_wallet_start_dto import BlockchainLetheanWalletStartDTO
+from dappserver_server_sdk.models.blockchain_lethean_wallet_start_dto import BlockchainLetheanWalletStartDTO
 
 # TODO update the JSON string below
 json = "{}"

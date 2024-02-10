@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.config_object_count_dto import ConfigObjectCountDTO
+from dappserver_server_sdk.models.config_object_count_dto import ConfigObjectCountDTO
 
 class TestConfigObjectCountDTO(unittest.TestCase):
     """ConfigObjectCountDTO unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.process_run_dto import ProcessRunDTO
+from dappserver_server_sdk.models.process_run_dto import ProcessRunDTO
 
 class TestProcessRunDTO(unittest.TestCase):
     """ProcessRunDTO unit test stubs"""
@@ -38,23 +38,23 @@ class TestProcessRunDTO(unittest.TestCase):
             return ProcessRunDTO(
                 command = '',
                 args = '',
-                options = dappserver-server-sdk.models.process_add_dto.ProcessAddDTO(
+                options = dappserver_server_sdk.models.process_add_dto.ProcessAddDTO(
                     key = '', 
                     command = '', 
-                    std_out = dappserver-server-sdk.models.std_out.stdOut(), 
-                    std_in = dappserver-server-sdk.models.std_in.stdIn(), 
-                    std_err = dappserver-server-sdk.models.std_err.stdErr(), )
+                    std_out = dappserver_server_sdk.models.std_out.stdOut(), 
+                    std_in = dappserver_server_sdk.models.std_in.stdIn(), 
+                    std_err = dappserver_server_sdk.models.std_err.stdErr(), )
             )
         else:
             return ProcessRunDTO(
                 command = '',
                 args = '',
-                options = dappserver-server-sdk.models.process_add_dto.ProcessAddDTO(
+                options = dappserver_server_sdk.models.process_add_dto.ProcessAddDTO(
                     key = '', 
                     command = '', 
-                    std_out = dappserver-server-sdk.models.std_out.stdOut(), 
-                    std_in = dappserver-server-sdk.models.std_in.stdIn(), 
-                    std_err = dappserver-server-sdk.models.std_err.stdErr(), ),
+                    std_out = dappserver_server_sdk.models.std_out.stdOut(), 
+                    std_in = dappserver_server_sdk.models.std_in.stdIn(), 
+                    std_err = dappserver_server_sdk.models.std_err.stdErr(), ),
         )
         """
 

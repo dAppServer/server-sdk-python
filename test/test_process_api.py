@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.api.process_api import ProcessApi
+from dappserver_server_sdk.api.process_api import ProcessApi
 
 
 class TestProcessApi(unittest.TestCase):

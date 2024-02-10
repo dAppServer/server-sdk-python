@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.ini_object_parse_jsondto import INIObjectParseJSONDTO
+from dappserver_server_sdk.models.ini_object_parse_jsondto import INIObjectParseJSONDTO
 
 class TestINIObjectParseJSONDTO(unittest.TestCase):
     """INIObjectParseJSONDTO unit test stubs"""

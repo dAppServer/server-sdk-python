@@ -17,19 +17,19 @@ from pydantic import validate_call, Field, StrictFloat, StrictStr, StrictInt
 from typing import Any, Dict, List, Optional, Tuple, Union
 from typing_extensions import Annotated
 
-from dappserver-server-sdk.models.hash_dto import HashDTO
-from dappserver-server-sdk.models.open_pgp_create_key_pair_dto import OpenPGPCreateKeyPairDTO
-from dappserver-server-sdk.models.open_pgp_decrypt_byiddto import OpenPGPDecryptBYIDDTO
-from dappserver-server-sdk.models.open_pgp_encrypt_byiddto import OpenPGPEncryptBYIDDTO
-from dappserver-server-sdk.models.open_pgp_get_public_key_dto import OpenPGPGetPublicKeyDTO
-from dappserver-server-sdk.models.open_pgp_sign_byiddto import OpenPGPSignBYIDDTO
-from dappserver-server-sdk.models.open_pgp_verify_byiddto import OpenPGPVerifyBYIDDTO
-from dappserver-server-sdk.models.quasi_salt_hash_dto import QuasiSaltHashDTO
-from dappserver-server-sdk.models.quasi_salt_hash_verify_dto import QuasiSaltHashVerifyDTO
+from dappserver_server_sdk.models.hash_dto import HashDTO
+from dappserver_server_sdk.models.open_pgp_create_key_pair_dto import OpenPGPCreateKeyPairDTO
+from dappserver_server_sdk.models.open_pgp_decrypt_byiddto import OpenPGPDecryptBYIDDTO
+from dappserver_server_sdk.models.open_pgp_encrypt_byiddto import OpenPGPEncryptBYIDDTO
+from dappserver_server_sdk.models.open_pgp_get_public_key_dto import OpenPGPGetPublicKeyDTO
+from dappserver_server_sdk.models.open_pgp_sign_byiddto import OpenPGPSignBYIDDTO
+from dappserver_server_sdk.models.open_pgp_verify_byiddto import OpenPGPVerifyBYIDDTO
+from dappserver_server_sdk.models.quasi_salt_hash_dto import QuasiSaltHashDTO
+from dappserver_server_sdk.models.quasi_salt_hash_verify_dto import QuasiSaltHashVerifyDTO
 
-from dappserver-server-sdk.api_client import ApiClient, RequestSerialized
-from dappserver-server-sdk.api_response import ApiResponse
-from dappserver-server-sdk.rest import RESTResponseType
+from dappserver_server_sdk.api_client import ApiClient, RequestSerialized
+from dappserver_server_sdk.api_response import ApiResponse
+from dappserver_server_sdk.rest import RESTResponseType
 
 
 class CryptographyApi:

@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.blockchain_lethean_daemon_start_dto import BlockchainLetheanDaemonStartDTO
+from dappserver_server_sdk.models.blockchain_lethean_daemon_start_dto import BlockchainLetheanDaemonStartDTO
 
 class TestBlockchainLetheanDaemonStartDTO(unittest.TestCase):
     """BlockchainLetheanDaemonStartDTO unit test stubs"""

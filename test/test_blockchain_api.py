@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.api.blockchain_api import BlockchainApi
+from dappserver_server_sdk.api.blockchain_api import BlockchainApi
 
 
 class TestBlockchainApi(unittest.TestCase):

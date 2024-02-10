@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.config_object_get_dto import ConfigObjectGetDTO
+from dappserver_server_sdk.models.config_object_get_dto import ConfigObjectGetDTO
 
 # TODO update the JSON string below
 json = "{}"

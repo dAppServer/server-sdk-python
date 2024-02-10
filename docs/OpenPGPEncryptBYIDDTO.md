@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.open_pgp_encrypt_byiddto import OpenPGPEncryptBYIDDTO
+from dappserver_server_sdk.models.open_pgp_encrypt_byiddto import OpenPGPEncryptBYIDDTO
 
 # TODO update the JSON string below
 json = "{}"

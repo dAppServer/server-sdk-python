@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.process_stop_dto import ProcessStopDTO
+from dappserver_server_sdk.models.process_stop_dto import ProcessStopDTO
 
 class TestProcessStopDTO(unittest.TestCase):
     """ProcessStopDTO unit test stubs"""

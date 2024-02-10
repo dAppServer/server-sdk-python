@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.file_path_check_dto import FilePathCheckDTO
+from dappserver_server_sdk.models.file_path_check_dto import FilePathCheckDTO
 
 # TODO update the JSON string below
 json = "{}"

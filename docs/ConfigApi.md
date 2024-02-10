@@ -1,4 +1,4 @@
-# dappserver-server-sdk.ConfigApi
+# dappserver_server_sdk.ConfigApi
 
 All URIs are relative to *http://localhost:36911*
 
@@ -25,23 +25,23 @@ Method | HTTP request | Description
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.config_object_clear_dto import ConfigObjectClearDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.config_object_clear_dto import ConfigObjectClearDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.ConfigApi(api_client)
-    config_object_clear_dto = dappserver-server-sdk.ConfigObjectClearDTO() # ConfigObjectClearDTO | 
+    api_instance = dappserver_server_sdk.ConfigApi(api_client)
+    config_object_clear_dto = dappserver_server_sdk.ConfigObjectClearDTO() # ConfigObjectClearDTO | 
 
     try:
         api_instance.clear_config(config_object_clear_dto)
@@ -88,23 +88,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.config_object_count_dto import ConfigObjectCountDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.config_object_count_dto import ConfigObjectCountDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.ConfigApi(api_client)
-    config_object_count_dto = dappserver-server-sdk.ConfigObjectCountDTO() # ConfigObjectCountDTO | 
+    api_instance = dappserver_server_sdk.ConfigApi(api_client)
+    config_object_count_dto = dappserver_server_sdk.ConfigObjectCountDTO() # ConfigObjectCountDTO | 
 
     try:
         api_instance.count_config(config_object_count_dto)
@@ -151,23 +151,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.config_object_get_dto import ConfigObjectGetDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.config_object_get_dto import ConfigObjectGetDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.ConfigApi(api_client)
-    config_object_get_dto = dappserver-server-sdk.ConfigObjectGetDTO() # ConfigObjectGetDTO | 
+    api_instance = dappserver_server_sdk.ConfigApi(api_client)
+    config_object_get_dto = dappserver_server_sdk.ConfigObjectGetDTO() # ConfigObjectGetDTO | 
 
     try:
         api_instance.get_config(config_object_get_dto)
@@ -214,23 +214,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.config_file_load_dto import ConfigFileLoadDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.config_file_load_dto import ConfigFileLoadDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.ConfigApi(api_client)
-    config_file_load_dto = dappserver-server-sdk.ConfigFileLoadDTO() # ConfigFileLoadDTO | 
+    api_instance = dappserver_server_sdk.ConfigApi(api_client)
+    config_file_load_dto = dappserver_server_sdk.ConfigFileLoadDTO() # ConfigFileLoadDTO | 
 
     try:
         api_instance.load(config_file_load_dto)
@@ -277,23 +277,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.ini_object_parse_jsondto import INIObjectParseJSONDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.ini_object_parse_jsondto import INIObjectParseJSONDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.ConfigApi(api_client)
-    ini_object_parse_jsondto = dappserver-server-sdk.INIObjectParseJSONDTO() # INIObjectParseJSONDTO | 
+    api_instance = dappserver_server_sdk.ConfigApi(api_client)
+    ini_object_parse_jsondto = dappserver_server_sdk.INIObjectParseJSONDTO() # INIObjectParseJSONDTO | 
 
     try:
         api_instance.parse(ini_object_parse_jsondto)
@@ -340,23 +340,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.config_object_remove_dto import ConfigObjectRemoveDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.config_object_remove_dto import ConfigObjectRemoveDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.ConfigApi(api_client)
-    config_object_remove_dto = dappserver-server-sdk.ConfigObjectRemoveDTO() # ConfigObjectRemoveDTO | 
+    api_instance = dappserver_server_sdk.ConfigApi(api_client)
+    config_object_remove_dto = dappserver_server_sdk.ConfigObjectRemoveDTO() # ConfigObjectRemoveDTO | 
 
     try:
         api_instance.remove_config(config_object_remove_dto)
@@ -403,23 +403,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.config_file_render_dto import ConfigFileRenderDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.config_file_render_dto import ConfigFileRenderDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.ConfigApi(api_client)
-    config_file_render_dto = dappserver-server-sdk.ConfigFileRenderDTO() # ConfigFileRenderDTO | 
+    api_instance = dappserver_server_sdk.ConfigApi(api_client)
+    config_file_render_dto = dappserver_server_sdk.ConfigFileRenderDTO() # ConfigFileRenderDTO | 
 
     try:
         api_instance.render(config_file_render_dto)
@@ -466,23 +466,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.config_file_render_and_load_dto import ConfigFileRenderAndLoadDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.config_file_render_and_load_dto import ConfigFileRenderAndLoadDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.ConfigApi(api_client)
-    config_file_render_and_load_dto = dappserver-server-sdk.ConfigFileRenderAndLoadDTO() # ConfigFileRenderAndLoadDTO | 
+    api_instance = dappserver_server_sdk.ConfigApi(api_client)
+    config_file_render_and_load_dto = dappserver_server_sdk.ConfigFileRenderAndLoadDTO() # ConfigFileRenderAndLoadDTO | 
 
     try:
         api_instance.render_and_load(config_file_render_and_load_dto)
@@ -529,23 +529,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.config_file_render_string_dto import ConfigFileRenderStringDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.config_file_render_string_dto import ConfigFileRenderStringDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.ConfigApi(api_client)
-    config_file_render_string_dto = dappserver-server-sdk.ConfigFileRenderStringDTO() # ConfigFileRenderStringDTO | 
+    api_instance = dappserver_server_sdk.ConfigApi(api_client)
+    config_file_render_string_dto = dappserver_server_sdk.ConfigFileRenderStringDTO() # ConfigFileRenderStringDTO | 
 
     try:
         api_instance.render_string(config_file_render_string_dto)
@@ -592,23 +592,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.config_object_set_dto import ConfigObjectSetDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.config_object_set_dto import ConfigObjectSetDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.ConfigApi(api_client)
-    config_object_set_dto = dappserver-server-sdk.ConfigObjectSetDTO() # ConfigObjectSetDTO | 
+    api_instance = dappserver_server_sdk.ConfigApi(api_client)
+    config_object_set_dto = dappserver_server_sdk.ConfigObjectSetDTO() # ConfigObjectSetDTO | 
 
     try:
         api_instance.set_config(config_object_set_dto)

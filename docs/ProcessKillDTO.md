@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.process_kill_dto import ProcessKillDTO
+from dappserver_server_sdk.models.process_kill_dto import ProcessKillDTO
 
 # TODO update the JSON string below
 json = "{}"

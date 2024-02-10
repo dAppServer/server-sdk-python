@@ -18,9 +18,9 @@ from typing import Any, Dict, List, Optional, Tuple, Union
 from typing_extensions import Annotated
 
 
-from dappserver-server-sdk.api_client import ApiClient, RequestSerialized
-from dappserver-server-sdk.api_response import ApiResponse
-from dappserver-server-sdk.rest import RESTResponseType
+from dappserver_server_sdk.api_client import ApiClient, RequestSerialized
+from dappserver_server_sdk.api_response import ApiResponse
+from dappserver_server_sdk.rest import RESTResponseType
 
 
 class InfoApi:

@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.blockchain_lethean_rpcdto import BlockchainLetheanRPCDTO
+from dappserver_server_sdk.models.blockchain_lethean_rpcdto import BlockchainLetheanRPCDTO
 
 # TODO update the JSON string below
 json = "{}"

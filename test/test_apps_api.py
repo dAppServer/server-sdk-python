@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.api.apps_api import AppsApi
+from dappserver_server_sdk.api.apps_api import AppsApi
 
 
 class TestAppsApi(unittest.TestCase):

@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.encrypted_response_dto import EncryptedResponseDTO
+from dappserver_server_sdk.models.encrypted_response_dto import EncryptedResponseDTO
 
 class TestEncryptedResponseDTO(unittest.TestCase):
     """EncryptedResponseDTO unit test stubs"""

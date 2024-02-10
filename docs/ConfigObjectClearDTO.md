@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.config_object_clear_dto import ConfigObjectClearDTO
+from dappserver_server_sdk.models.config_object_clear_dto import ConfigObjectClearDTO
 
 # TODO update the JSON string below
 json = "{}"

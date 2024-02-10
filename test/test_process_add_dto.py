@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.process_add_dto import ProcessAddDTO
+from dappserver_server_sdk.models.process_add_dto import ProcessAddDTO
 
 class TestProcessAddDTO(unittest.TestCase):
     """ProcessAddDTO unit test stubs"""
@@ -38,17 +38,17 @@ class TestProcessAddDTO(unittest.TestCase):
             return ProcessAddDTO(
                 key = '',
                 command = '',
-                std_out = dappserver-server-sdk.models.std_out.stdOut(),
-                std_in = dappserver-server-sdk.models.std_in.stdIn(),
-                std_err = dappserver-server-sdk.models.std_err.stdErr()
+                std_out = dappserver_server_sdk.models.std_out.stdOut(),
+                std_in = dappserver_server_sdk.models.std_in.stdIn(),
+                std_err = dappserver_server_sdk.models.std_err.stdErr()
             )
         else:
             return ProcessAddDTO(
                 key = '',
                 command = '',
-                std_out = dappserver-server-sdk.models.std_out.stdOut(),
-                std_in = dappserver-server-sdk.models.std_in.stdIn(),
-                std_err = dappserver-server-sdk.models.std_err.stdErr(),
+                std_out = dappserver_server_sdk.models.std_out.stdOut(),
+                std_in = dappserver_server_sdk.models.std_in.stdIn(),
+                std_err = dappserver_server_sdk.models.std_err.stdErr(),
         )
         """
 

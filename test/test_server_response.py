@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.server_response import ServerResponse
+from dappserver_server_sdk.models.server_response import ServerResponse
 
 class TestServerResponse(unittest.TestCase):
     """ServerResponse unit test stubs"""

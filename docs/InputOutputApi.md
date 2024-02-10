@@ -1,4 +1,4 @@
-# dappserver-server-sdk.InputOutputApi
+# dappserver_server_sdk.InputOutputApi
 
 All URIs are relative to *http://localhost:36911*
 
@@ -22,23 +22,23 @@ Method | HTTP request | Description
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.file_download_request import FileDownloadRequest
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.file_download_request import FileDownloadRequest
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.InputOutputApi(api_client)
-    file_download_request = dappserver-server-sdk.FileDownloadRequest() # FileDownloadRequest | 
+    api_instance = dappserver_server_sdk.InputOutputApi(api_client)
+    file_download_request = dappserver_server_sdk.FileDownloadRequest() # FileDownloadRequest | 
 
     try:
         api_instance.fetch_file(file_download_request)
@@ -85,23 +85,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.file_path_dto import FilePathDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.file_path_dto import FilePathDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.InputOutputApi(api_client)
-    file_path_dto = dappserver-server-sdk.FilePathDTO() # FilePathDTO | 
+    api_instance = dappserver_server_sdk.InputOutputApi(api_client)
+    file_path_dto = dappserver_server_sdk.FilePathDTO() # FilePathDTO | 
 
     try:
         api_instance.get_detailed_directory_list(file_path_dto)
@@ -148,23 +148,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.file_path_dto import FilePathDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.file_path_dto import FilePathDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.InputOutputApi(api_client)
-    file_path_dto = dappserver-server-sdk.FilePathDTO() # FilePathDTO | 
+    api_instance = dappserver_server_sdk.InputOutputApi(api_client)
+    file_path_dto = dappserver_server_sdk.FilePathDTO() # FilePathDTO | 
 
     try:
         api_instance.get_directory_list(file_path_dto)
@@ -211,24 +211,24 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.file_path_check_dto import FilePathCheckDTO
-from dappserver-server-sdk.models.file_path_dto import FilePathDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.file_path_check_dto import FilePathCheckDTO
+from dappserver_server_sdk.models.file_path_dto import FilePathDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.InputOutputApi(api_client)
-    file_path_dto = dappserver-server-sdk.FilePathDTO() # FilePathDTO | 
+    api_instance = dappserver_server_sdk.InputOutputApi(api_client)
+    file_path_dto = dappserver_server_sdk.FilePathDTO() # FilePathDTO | 
 
     try:
         api_response = api_instance.is_dir(file_path_dto)
@@ -277,24 +277,24 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.file_path_check_dto import FilePathCheckDTO
-from dappserver-server-sdk.models.file_path_dto import FilePathDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.file_path_check_dto import FilePathCheckDTO
+from dappserver_server_sdk.models.file_path_dto import FilePathDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.InputOutputApi(api_client)
-    file_path_dto = dappserver-server-sdk.FilePathDTO() # FilePathDTO | 
+    api_instance = dappserver_server_sdk.InputOutputApi(api_client)
+    file_path_dto = dappserver_server_sdk.FilePathDTO() # FilePathDTO | 
 
     try:
         api_response = api_instance.is_file(file_path_dto)
@@ -343,23 +343,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.file_path_dto import FilePathDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.file_path_dto import FilePathDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.InputOutputApi(api_client)
-    file_path_dto = dappserver-server-sdk.FilePathDTO() # FilePathDTO | 
+    api_instance = dappserver_server_sdk.InputOutputApi(api_client)
+    file_path_dto = dappserver_server_sdk.FilePathDTO() # FilePathDTO | 
 
     try:
         api_instance.read_file(file_path_dto)
@@ -406,23 +406,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.create_file_dto import CreateFileDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.create_file_dto import CreateFileDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.InputOutputApi(api_client)
-    create_file_dto = dappserver-server-sdk.CreateFileDTO() # CreateFileDTO | 
+    api_instance = dappserver_server_sdk.InputOutputApi(api_client)
+    create_file_dto = dappserver_server_sdk.CreateFileDTO() # CreateFileDTO | 
 
     try:
         api_instance.write_file(create_file_dto)

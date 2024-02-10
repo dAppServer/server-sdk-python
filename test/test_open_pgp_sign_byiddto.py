@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.open_pgp_sign_byiddto import OpenPGPSignBYIDDTO
+from dappserver_server_sdk.models.open_pgp_sign_byiddto import OpenPGPSignBYIDDTO
 
 class TestOpenPGPSignBYIDDTO(unittest.TestCase):
     """OpenPGPSignBYIDDTO unit test stubs"""

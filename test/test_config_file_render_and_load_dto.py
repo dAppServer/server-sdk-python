@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.config_file_render_and_load_dto import ConfigFileRenderAndLoadDTO
+from dappserver_server_sdk.models.config_file_render_and_load_dto import ConfigFileRenderAndLoadDTO
 
 class TestConfigFileRenderAndLoadDTO(unittest.TestCase):
     """ConfigFileRenderAndLoadDTO unit test stubs"""
@@ -37,14 +37,14 @@ class TestConfigFileRenderAndLoadDTO(unittest.TestCase):
         if include_optional:
             return ConfigFileRenderAndLoadDTO(
                 file = '',
-                model = dappserver-server-sdk.models.config_object_get_dto.ConfigObjectGetDTO(
+                model = dappserver_server_sdk.models.config_object_get_dto.ConfigObjectGetDTO(
                     group = '', 
                     object = '', )
             )
         else:
             return ConfigFileRenderAndLoadDTO(
                 file = '',
-                model = dappserver-server-sdk.models.config_object_get_dto.ConfigObjectGetDTO(
+                model = dappserver_server_sdk.models.config_object_get_dto.ConfigObjectGetDTO(
                     group = '', 
                     object = '', ),
         )

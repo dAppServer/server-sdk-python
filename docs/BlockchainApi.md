@@ -1,4 +1,4 @@
-# dappserver-server-sdk.BlockchainApi
+# dappserver_server_sdk.BlockchainApi
 
 All URIs are relative to *http://localhost:36911*
 
@@ -22,21 +22,21 @@ Method | HTTP request | Description
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.BlockchainApi(api_client)
+    api_instance = dappserver_server_sdk.BlockchainApi(api_client)
     body = None # object | 
 
     try:
@@ -84,21 +84,21 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.BlockchainApi(api_client)
+    api_instance = dappserver_server_sdk.BlockchainApi(api_client)
     body = None # object | 
 
     try:
@@ -146,21 +146,21 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.BlockchainApi(api_client)
+    api_instance = dappserver_server_sdk.BlockchainApi(api_client)
     body = None # object | 
 
     try:
@@ -208,23 +208,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.blockchain_lethean_rpcdto import BlockchainLetheanRPCDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.blockchain_lethean_rpcdto import BlockchainLetheanRPCDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.BlockchainApi(api_client)
-    blockchain_lethean_rpcdto = dappserver-server-sdk.BlockchainLetheanRPCDTO() # BlockchainLetheanRPCDTO | 
+    api_instance = dappserver_server_sdk.BlockchainApi(api_client)
+    blockchain_lethean_rpcdto = dappserver_server_sdk.BlockchainLetheanRPCDTO() # BlockchainLetheanRPCDTO | 
 
     try:
         api_response = api_instance.json_rpc(blockchain_lethean_rpcdto)
@@ -273,24 +273,24 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.blockchain_lethean_daemon_start_dto import BlockchainLetheanDaemonStartDTO
-from dappserver-server-sdk.models.server_response import ServerResponse
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.blockchain_lethean_daemon_start_dto import BlockchainLetheanDaemonStartDTO
+from dappserver_server_sdk.models.server_response import ServerResponse
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.BlockchainApi(api_client)
-    blockchain_lethean_daemon_start_dto = dappserver-server-sdk.BlockchainLetheanDaemonStartDTO() # BlockchainLetheanDaemonStartDTO | 
+    api_instance = dappserver_server_sdk.BlockchainApi(api_client)
+    blockchain_lethean_daemon_start_dto = dappserver_server_sdk.BlockchainLetheanDaemonStartDTO() # BlockchainLetheanDaemonStartDTO | 
 
     try:
         api_response = api_instance.start_daemon(blockchain_lethean_daemon_start_dto)
@@ -339,23 +339,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.blockchain_lethean_wallet_start_dto import BlockchainLetheanWalletStartDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.blockchain_lethean_wallet_start_dto import BlockchainLetheanWalletStartDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.BlockchainApi(api_client)
-    blockchain_lethean_wallet_start_dto = dappserver-server-sdk.BlockchainLetheanWalletStartDTO() # BlockchainLetheanWalletStartDTO | 
+    api_instance = dappserver_server_sdk.BlockchainApi(api_client)
+    blockchain_lethean_wallet_start_dto = dappserver_server_sdk.BlockchainLetheanWalletStartDTO() # BlockchainLetheanWalletStartDTO | 
 
     try:
         api_instance.start_wallet(blockchain_lethean_wallet_start_dto)
@@ -402,21 +402,21 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.BlockchainApi(api_client)
+    api_instance = dappserver_server_sdk.BlockchainApi(api_client)
     body = None # object | 
 
     try:

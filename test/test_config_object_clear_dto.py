@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.config_object_clear_dto import ConfigObjectClearDTO
+from dappserver_server_sdk.models.config_object_clear_dto import ConfigObjectClearDTO
 
 class TestConfigObjectClearDTO(unittest.TestCase):
     """ConfigObjectClearDTO unit test stubs"""

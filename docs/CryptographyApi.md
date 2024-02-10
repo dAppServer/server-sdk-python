@@ -1,4 +1,4 @@
-# dappserver-server-sdk.CryptographyApi
+# dappserver_server_sdk.CryptographyApi
 
 All URIs are relative to *http://localhost:36911*
 
@@ -26,23 +26,23 @@ Method | HTTP request | Description
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.quasi_salt_hash_dto import QuasiSaltHashDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.quasi_salt_hash_dto import QuasiSaltHashDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.CryptographyApi(api_client)
-    quasi_salt_hash_dto = dappserver-server-sdk.QuasiSaltHashDTO() # QuasiSaltHashDTO | 
+    api_instance = dappserver_server_sdk.CryptographyApi(api_client)
+    quasi_salt_hash_dto = dappserver_server_sdk.QuasiSaltHashDTO() # QuasiSaltHashDTO | 
 
     try:
         api_instance.create_quasi_salt(quasi_salt_hash_dto)
@@ -89,23 +89,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.open_pgp_decrypt_byiddto import OpenPGPDecryptBYIDDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.open_pgp_decrypt_byiddto import OpenPGPDecryptBYIDDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.CryptographyApi(api_client)
-    open_pgp_decrypt_byiddto = dappserver-server-sdk.OpenPGPDecryptBYIDDTO() # OpenPGPDecryptBYIDDTO | 
+    api_instance = dappserver_server_sdk.CryptographyApi(api_client)
+    open_pgp_decrypt_byiddto = dappserver_server_sdk.OpenPGPDecryptBYIDDTO() # OpenPGPDecryptBYIDDTO | 
 
     try:
         api_instance.decrypt(open_pgp_decrypt_byiddto)
@@ -152,23 +152,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.open_pgp_encrypt_byiddto import OpenPGPEncryptBYIDDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.open_pgp_encrypt_byiddto import OpenPGPEncryptBYIDDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.CryptographyApi(api_client)
-    open_pgp_encrypt_byiddto = dappserver-server-sdk.OpenPGPEncryptBYIDDTO() # OpenPGPEncryptBYIDDTO | 
+    api_instance = dappserver_server_sdk.CryptographyApi(api_client)
+    open_pgp_encrypt_byiddto = dappserver_server_sdk.OpenPGPEncryptBYIDDTO() # OpenPGPEncryptBYIDDTO | 
 
     try:
         api_instance.encrypt(open_pgp_encrypt_byiddto)
@@ -215,23 +215,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.open_pgp_create_key_pair_dto import OpenPGPCreateKeyPairDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.open_pgp_create_key_pair_dto import OpenPGPCreateKeyPairDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.CryptographyApi(api_client)
-    open_pgp_create_key_pair_dto = dappserver-server-sdk.OpenPGPCreateKeyPairDTO() # OpenPGPCreateKeyPairDTO | 
+    api_instance = dappserver_server_sdk.CryptographyApi(api_client)
+    open_pgp_create_key_pair_dto = dappserver_server_sdk.OpenPGPCreateKeyPairDTO() # OpenPGPCreateKeyPairDTO | 
 
     try:
         api_instance.generate_key_pair(open_pgp_create_key_pair_dto)
@@ -278,23 +278,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.open_pgp_get_public_key_dto import OpenPGPGetPublicKeyDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.open_pgp_get_public_key_dto import OpenPGPGetPublicKeyDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.CryptographyApi(api_client)
-    open_pgp_get_public_key_dto = dappserver-server-sdk.OpenPGPGetPublicKeyDTO() # OpenPGPGetPublicKeyDTO | 
+    api_instance = dappserver_server_sdk.CryptographyApi(api_client)
+    open_pgp_get_public_key_dto = dappserver_server_sdk.OpenPGPGetPublicKeyDTO() # OpenPGPGetPublicKeyDTO | 
 
     try:
         api_instance.get_public_key(open_pgp_get_public_key_dto)
@@ -341,23 +341,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.hash_dto import HashDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.hash_dto import HashDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.CryptographyApi(api_client)
-    hash_dto = dappserver-server-sdk.HashDTO() # HashDTO | 
+    api_instance = dappserver_server_sdk.CryptographyApi(api_client)
+    hash_dto = dappserver_server_sdk.HashDTO() # HashDTO | 
 
     try:
         api_instance.sha256(hash_dto)
@@ -404,23 +404,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.hash_dto import HashDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.hash_dto import HashDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.CryptographyApi(api_client)
-    hash_dto = dappserver-server-sdk.HashDTO() # HashDTO | 
+    api_instance = dappserver_server_sdk.CryptographyApi(api_client)
+    hash_dto = dappserver_server_sdk.HashDTO() # HashDTO | 
 
     try:
         api_instance.sha384(hash_dto)
@@ -467,23 +467,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.hash_dto import HashDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.hash_dto import HashDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.CryptographyApi(api_client)
-    hash_dto = dappserver-server-sdk.HashDTO() # HashDTO | 
+    api_instance = dappserver_server_sdk.CryptographyApi(api_client)
+    hash_dto = dappserver_server_sdk.HashDTO() # HashDTO | 
 
     try:
         api_instance.sha512(hash_dto)
@@ -530,23 +530,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.open_pgp_sign_byiddto import OpenPGPSignBYIDDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.open_pgp_sign_byiddto import OpenPGPSignBYIDDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.CryptographyApi(api_client)
-    open_pgp_sign_byiddto = dappserver-server-sdk.OpenPGPSignBYIDDTO() # OpenPGPSignBYIDDTO | 
+    api_instance = dappserver_server_sdk.CryptographyApi(api_client)
+    open_pgp_sign_byiddto = dappserver_server_sdk.OpenPGPSignBYIDDTO() # OpenPGPSignBYIDDTO | 
 
     try:
         api_instance.sign(open_pgp_sign_byiddto)
@@ -593,23 +593,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.open_pgp_verify_byiddto import OpenPGPVerifyBYIDDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.open_pgp_verify_byiddto import OpenPGPVerifyBYIDDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.CryptographyApi(api_client)
-    open_pgp_verify_byiddto = dappserver-server-sdk.OpenPGPVerifyBYIDDTO() # OpenPGPVerifyBYIDDTO | 
+    api_instance = dappserver_server_sdk.CryptographyApi(api_client)
+    open_pgp_verify_byiddto = dappserver_server_sdk.OpenPGPVerifyBYIDDTO() # OpenPGPVerifyBYIDDTO | 
 
     try:
         api_instance.verify(open_pgp_verify_byiddto)
@@ -656,23 +656,23 @@ No authorization required
 
 
 ```python
-import dappserver-server-sdk
-from dappserver-server-sdk.models.quasi_salt_hash_verify_dto import QuasiSaltHashVerifyDTO
-from dappserver-server-sdk.rest import ApiException
+import dappserver_server_sdk
+from dappserver_server_sdk.models.quasi_salt_hash_verify_dto import QuasiSaltHashVerifyDTO
+from dappserver_server_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost:36911
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dappserver-server-sdk.Configuration(
+configuration = dappserver_server_sdk.Configuration(
     host = "http://localhost:36911"
 )
 
 
 # Enter a context with an instance of the API client
-with dappserver-server-sdk.ApiClient(configuration) as api_client:
+with dappserver_server_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dappserver-server-sdk.CryptographyApi(api_client)
-    quasi_salt_hash_verify_dto = dappserver-server-sdk.QuasiSaltHashVerifyDTO() # QuasiSaltHashVerifyDTO | 
+    api_instance = dappserver_server_sdk.CryptographyApi(api_client)
+    quasi_salt_hash_verify_dto = dappserver_server_sdk.QuasiSaltHashVerifyDTO() # QuasiSaltHashVerifyDTO | 
 
     try:
         api_instance.verify_quasi_salt(quasi_salt_hash_verify_dto)

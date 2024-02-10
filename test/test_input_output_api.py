@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.api.input_output_api import InputOutputApi
+from dappserver_server_sdk.api.input_output_api import InputOutputApi
 
 
 class TestInputOutputApi(unittest.TestCase):

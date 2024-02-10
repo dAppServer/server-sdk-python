@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.config_object_remove_dto import ConfigObjectRemoveDTO
+from dappserver_server_sdk.models.config_object_remove_dto import ConfigObjectRemoveDTO
 
 # TODO update the JSON string below
 json = "{}"

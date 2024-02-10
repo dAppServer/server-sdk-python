@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.models.open_pgp_get_public_key_dto import OpenPGPGetPublicKeyDTO
+from dappserver_server_sdk.models.open_pgp_get_public_key_dto import OpenPGPGetPublicKeyDTO
 
 class TestOpenPGPGetPublicKeyDTO(unittest.TestCase):
     """OpenPGPGetPublicKeyDTO unit test stubs"""

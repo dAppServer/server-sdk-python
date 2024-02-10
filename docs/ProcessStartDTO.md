@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.process_start_dto import ProcessStartDTO
+from dappserver_server_sdk.models.process_start_dto import ProcessStartDTO
 
 # TODO update the JSON string below
 json = "{}"

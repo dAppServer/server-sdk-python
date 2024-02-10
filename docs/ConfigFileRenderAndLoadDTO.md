@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dappserver-server-sdk.models.config_file_render_and_load_dto import ConfigFileRenderAndLoadDTO
+from dappserver_server_sdk.models.config_file_render_and_load_dto import ConfigFileRenderAndLoadDTO
 
 # TODO update the JSON string below
 json = "{}"

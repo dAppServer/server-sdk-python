@@ -15,7 +15,7 @@
 
 import unittest
 
-from dappserver-server-sdk.api.auth_api import AuthApi
+from dappserver_server_sdk.api.auth_api import AuthApi
 
 
 class TestAuthApi(unittest.TestCase):
