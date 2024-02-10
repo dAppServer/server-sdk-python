@@ -3,7 +3,7 @@
 #
 # ref: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
-name: dappserver_server_sdk Python package
+name: Python package test
 
 on: [push, pull_request]
 
